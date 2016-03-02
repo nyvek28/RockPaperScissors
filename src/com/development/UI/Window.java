@@ -109,7 +109,7 @@ public class Window extends JFrame {
 		for(int i = 0; i < match.length; i++){
 			strat = match[i][1].toUpperCase();
 			name = match[i][0];
-			if(strat.equals("P") || strat.equals("S") || strat.equals("R") || name.isEmpty()){
+			if(strat.equals("P") || strat.equals("S") || strat.equals("R") || !name.isEmpty()){
 				isVerified = true;
 			}
 		}
